@@ -58,12 +58,17 @@
             </select>
             <label for="estado">Estado do equipamento:</label>
             <select name="estado" id="estado" required>
-                <option value="funcionando">Funcionando (Doação):</option>
+                <option value="funcionando">Funcionando (Doação)</option>
                 <option value="estragado">Estragado (Descarte / Reciclagem)</option>
                 <option value="parcial">Funcionando parcialmente(Pode render peças)</option>
             </select>
 
+            <label for="descricao">Descrição (Marca / Modelo / Problemas, se houver):</label>
+            <textarea name="descricao" id="descricao" rows="4"></textarea>
+
+            <button type="submit">Registrar Equipamento</button>
         </form>
+        
     </div>
 </body>
 
